@@ -16,7 +16,8 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var passwordTF: UITextField!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let greetingsScreenVC = segue.destination as? GreetingsViewController else { return }
+        guard let greetingsScreenVC =
+            segue.destination as? GreetingsViewController else { return }
         greetingsScreenVC.user = userNameTF.text ?? ""
     }
 
@@ -28,35 +29,41 @@ class LogInViewController: UIViewController {
     }
     
     @IBAction func forgotUserNamePressed() {
-        let alert = UIAlertController(title: "Oops!",
-                                      message: "Your username is Tim",
-                                      preferredStyle: .alert)
+        let alert = UIAlertController(
+            title: "Oops!",
+            message: "Your username is Tim",
+            preferredStyle: .alert
+        )
         
         alert.addAction(UIAlertAction(title: "Ok!", style: .default))
         present(alert, animated: true)
     }
     
     @IBAction func forgotPasswordPressed() {
-        let alert = UIAlertController(title: "Oops!",
-                                      message: "Your password is password",
-                                      preferredStyle: .alert)
+        let alert = UIAlertController(
+            title: "Oops!",
+            message: "Your password is password",
+            preferredStyle: .alert
+        )
         
-        alert.addAction(UIAlertAction(title: "Thanks!", style: .cancel))
-        present(alert, animated: true)
-    }
-    
-    private func credentialsFailAlert() {
-        let alert = UIAlertController(title: "Invalid username or password",
-                                      message: "Please enter correct username and password",
-                                      preferredStyle: .alert)
-        
-        alert.addAction(UIAlertAction(title: "Ok", style: .default))
+        alert.addAction(UIAlertAction(title: "Thanks!", style: .default))
         present(alert, animated: true)
     }
     
     @IBAction func unwindSegue(_ unwindSegue: UIStoryboardSegue) {
         userNameTF.text = ""
         passwordTF.text = ""
+    }
+    
+    private func credentialsFailAlert() {
+        let alert = UIAlertController(
+            title: "Invalid username or password",
+            message: "Please enter correct username and password",
+            preferredStyle: .alert
+        )
+        
+        alert.addAction(UIAlertAction(title: "Ok", style: .default))
+        present(alert, animated: true)
     }
 }
 
