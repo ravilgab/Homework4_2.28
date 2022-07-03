@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F13694B7286F843900DECCE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13694B6286F843900DECCE9 /* AppDelegate.swift */; };
 		F13694B9286F843900DECCE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13694B8286F843900DECCE9 /* SceneDelegate.swift */; };
-		F13694BB286F843900DECCE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13694BA286F843900DECCE9 /* ViewController.swift */; };
+		F13694BB286F843900DECCE9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13694BA286F843900DECCE9 /* LogInViewController.swift */; };
 		F13694BE286F843900DECCE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13694BC286F843900DECCE9 /* Main.storyboard */; };
 		F13694C0286F843D00DECCE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13694BF286F843D00DECCE9 /* Assets.xcassets */; };
 		F13694C3286F843D00DECCE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13694C1286F843D00DECCE9 /* LaunchScreen.storyboard */; };
+		F1B7B3E72871E6C600BFEC09 /* GreetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B7B3E62871E6C600BFEC09 /* GreetingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F13694B3286F843900DECCE9 /* Homework4_2.28.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework4_2.28.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13694B6286F843900DECCE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13694B8286F843900DECCE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F13694BA286F843900DECCE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F13694BA286F843900DECCE9 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		F13694BD286F843900DECCE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F13694BF286F843D00DECCE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13694C2286F843D00DECCE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F13694C4286F843D00DECCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B7B3E62871E6C600BFEC09 /* GreetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				F13694B6286F843900DECCE9 /* AppDelegate.swift */,
 				F13694B8286F843900DECCE9 /* SceneDelegate.swift */,
-				F13694BA286F843900DECCE9 /* ViewController.swift */,
+				F13694BA286F843900DECCE9 /* LogInViewController.swift */,
+				F1B7B3E62871E6C600BFEC09 /* GreetingsViewController.swift */,
 				F13694BC286F843900DECCE9 /* Main.storyboard */,
 				F13694BF286F843D00DECCE9 /* Assets.xcassets */,
 				F13694C1286F843D00DECCE9 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13694BB286F843900DECCE9 /* ViewController.swift in Sources */,
+				F13694BB286F843900DECCE9 /* LogInViewController.swift in Sources */,
 				F13694B7286F843900DECCE9 /* AppDelegate.swift in Sources */,
 				F13694B9286F843900DECCE9 /* SceneDelegate.swift in Sources */,
+				F1B7B3E72871E6C600BFEC09 /* GreetingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
